@@ -6,5 +6,5 @@ $(document).ready(function () {
     }).done(function() {
 
     });
-    alert('Hello');
+    //alert('Hello');
 });

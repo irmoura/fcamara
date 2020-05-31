@@ -1,31 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projeto Feira</title>
     <style>
-        body{
+        .menu ul li {
+            background-color: #fc6027;
+            color: black;
+            float: left;
+            /*deixar itens lado a lado*/
+            width: 200px;
+            /*largura*/
+            height: 40px;
+            /*altura*/
+            display: inline-block;
+            /*remove as bolinhas dos itens*/
+            text-align: center;
+            line-height: 40px;
+            /*deve ser o mesmo valor da altura*/
+            font-size: 25px;
+            position: relative;
+        }
+
+        .menu ul li:hover {
+            color: white;
+        }
+
+        .menu ul {
+            padding: 0;
+            /*alinha os menus*/
+        }
+
+        .menu ul ul {
+            display: none;
+        }
+
+        .menu ul li:hover>ul {
+            display: block;
+        }
+
+        .menu ul ul ul{
+            margin-left: 200px;
+            top: 0px;
+            position: absolute;
+        }
+
+        .menu a{
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
             text-align: center;
             background-color: #fc6027;
             color: black;
             font: normal 20pt Arial;
         }
-        h1{
+
+        h1 {
             color: black;
         }
     </style>
 </head>
+
 <body>
-    <h1>Cadastro de Administrador</h1>
-    Nome:<br>
-	<input type="text" name="nome" required autofocus id="txtNome"><br>
-	Senha:<br>
-	<input type="password" name="senha" id="txtPassword"><br>
-	Email:<br>
+    <div>
+        <nav class="menu">
+            <ul>
+                <a href="#"><li>Argentina</li></a>
+                <li>Brasil
+                    <ul>
+                        <li>Norte</li>
+                        <li>Nordeste
+                            <ul>
+                                <li>Fortaleza</li>
+                                <li>Apuiares</li>
+                            </ul>
+                        </li>
+                        <li>Sul</li>
+                        <li>Leste</li>
+                        <li>Oeste</li>
+                    </ul>
+                </li>
+                <li>Colombia</li>
+                <li>Paraguai</li>
+            </ul>
+        </nav>
+    </div>
+    <div><br>
+        <h1>Cadastro de Administrador</h1>
+        Nome:<br>
+        <input type="text" name="nome" required autofocus id="txtNome"><br>
+        Senha:<br>
+        <input type="password" name="senha" id="txtPassword"><br>
+        Email:<br>
+    </div>
     <input type="email" name="email" required autocomplete="on" placeholder="digite seu email" id="txtEmail"><br>
     <input type="button" name="btnSalvar" id="btnSalvar" value="Salvar">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../js/cadastros/cadastro-administrador.js"></script>
 </body>
+
 </html>

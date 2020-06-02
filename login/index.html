@@ -3,26 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Projeto Feira - Login</title>
-    <style>
-        body{
-            text-align: center;
-            background-color: #fc6027;
-            color: black;
-            font: normal 20pt Arial;
-        }
-        h1{
-            color: black;
-        }
-    </style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="../css/tela-login.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Projeto Feira</h1>
+    <div id="login">
+        <h3 class="text-center text-white pt-5">Quitanda do bairro</h3>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-dark">Login</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-dark">Usuário:</label><br>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-dark">Senha:</label><br>
+                                <input type="text" name="password" id="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-success btn-md" value="Entrar">
+                                    <a style="margin-left: 53.5%;" class="btn btn-success btn-md" href="#" class="text-info">Cadastre-se aqui</a>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <h1>Projeto Feira</h1>
     Usuário:<br>
 	<input type="text" name="usuario" required autofocus><br>
 	Senha:<br>
     <input type="password" name="senha"><br>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="../js/login/index.js"></script>
+    <script src="../js/login/index.js"></script> -->
 </body>
 </html>

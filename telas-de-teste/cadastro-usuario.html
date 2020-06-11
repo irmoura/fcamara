@@ -9,6 +9,8 @@
     <meta name="generator" content="Jekyll v4.0.1">
     <title>Signin Template · Bootstrap</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
 
     <!-- Bootstrap core CSS -->
@@ -63,16 +65,33 @@
         </div>
     </nav>
     <form class="form-signin">
-        <!-- <img class="mb-4" src="../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
         <h1 class="h3 mb-3 font-weight-normal">Insira os seus dados</a></h1>
         <input type="text" class="form-control" placeholder="Nome">
         <input type="text" class="form-control" placeholder="Sobrenome">
+        <input type="text" class="form-control" placeholder="CEP" id="cep">
+        <input type="text" class="form-control" placeholder="LOGRADOURO" id="logradouro">
+        <input type="text" class="form-control" placeholder="BAIRRO" id="bairro">
+        <input type="text" class="form-control" placeholder="LOCALIDADE" id="localidade">
+        <input type="text" class="form-control" placeholder="UF" id="uf">
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Criar Conta</button>
     </form>
+    <script>
+        $("#cep").focusout(function () {
+            var cep = $('#cep').val();
+            var jqxhr = $.get("https://viacep.com.br/ws/" + cep + "/json", function (data) {
+                $('#bairro').val(data.bairro);
+                $('#logradouro').val(data.logradouro);
+                $('#localidade').val(data.localidade);
+                $('#uf').val(data.uf);
+            }).done(function () {
+
+            });
+        })
+    </script>
 </body>
 
 

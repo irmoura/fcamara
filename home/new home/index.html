@@ -6,7 +6,7 @@
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -50,22 +50,13 @@
    <div class="container2">
        <h1>categorias</h1>
 
-       <div class="global-page-container">
-
-        <div class="watch-slider">
-            
-          <img class="slide" src="img/card hortifrúti.png" alt="">
-          <img class="slide" src="img/card granjeiro.png" alt="">
-          <img class="slide" src="img/card peixaria.png" alt="">
-          <img class="slide" src="img/card fast food.png" alt="">
-        
-        </div>
-
-        <div id="arrow-prev" class="arrow1"></div>
-            <div id="watch-name" class="description"></div>
-            <div id="arrow-next" class="arrow2"></div>
-
+       <div class="gallery js-flickity">
+        <img class="gallery-cell" src="img/card hortifrúti.png" alt="">
+        <img class="gallery-cell" src="img/card granjeiro.png" alt="">
+        <img class="gallery-cell" src="img/card peixaria.png" alt="">
+        <img class="gallery-cell" src="img/card fast food.png" alt="">
        </div>
+       
    </div>
 
    <div class="container3">
@@ -121,7 +112,7 @@
 
 
 
-   <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
    <script src="js/script.js"></script>	
 </body>
 </html>

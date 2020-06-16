@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>tela home</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
@@ -12,7 +12,7 @@
 <body>
 
     <header>
-        <div class="container1">
+        <div id="top" class="container1">
             <img class="desenho3" src="img/Caminho 5805.svg" alt="">
             <img class="desenho2" src="img/Caminho 1462.svg" alt="">
             <img class="desenho1" src="img/Caminho 1463.svg" alt="">
@@ -38,9 +38,9 @@
             </div>
 
             <section>
-                <button class="inicio">início</button>
+                <button class="inicio" onClick="history.go(0)">início</button>
                 <button class="entrar">Entrar</button>
-                <button class="quem">quem somos</button>
+                <a class="quem" href="#quem-somos">quem somos</a>
                 <button class="seja">seja um parceiro</button>
                 <button class="contato">contato</button>
             </section>
@@ -59,7 +59,7 @@
        
    </div>
 
-   <div class="container3">
+   <div id="quem-somos" class="container3">
        <h1>Quem somos</h1>
 
        <img class="esquerda" src="img/side forma esquerda.svg" alt="">
@@ -88,7 +88,7 @@
        <img class="logo-footer" src="img/logo-1.svg" alt="">
 
        <section>
-           <button class="ini">início</button>
+           <a href="#top" class="ini" >início</a>
            <button class="estabelecimento">cadastrar meu estabelecimento</button>
            <button class="ajuda">contato e ajuda</button>
            <button class="blog">blog do Quitanda do bairro</button>

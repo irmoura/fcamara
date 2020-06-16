@@ -34,6 +34,18 @@ button{
   left: 623px;
   width: 150px;
   height: 30px;
+
+  position: absolute;
+  background-color: transparent;
+  border:0px;
+  color: #00613C;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  text-decoration:none; 
+
+  cursor: pointer;
 }
 
 .seja{
@@ -362,6 +374,11 @@ body { font-family: sans-serif; }
   left: 400px;
   font-size: 20px;
   color: #FFFFFF;
+
+  position: absolute;
+  text-decoration:none; 
+
+
 }
 
 .estabelecimento{

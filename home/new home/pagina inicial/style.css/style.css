@@ -1,0 +1,358 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+
+    font-size: 40px;
+    left: 40px;
+    color: #00613C;
+}
+
+.container{
+    position: absolute;
+    height: 132px;
+    width: 1350px;
+    overflow: hidden;
+}
+
+.menu{
+    position: absolute;
+    right: 30px;
+    width: 400px;
+    height: 100px;
+}
+
+.perfil{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: transparent;
+    border: none;
+    background-image: url("../img/conjunto\ perfil.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.caixote{
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 70px;
+    background: transparent;
+    border: none;
+    background-image: url("../img/grupo\ caixote.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.desenho{
+    position: absolute;
+    top: -550px;
+    height: 1400px;
+    left: -750px;
+    opacity: 0.50;
+}
+
+.logo{
+    position: absolute;
+    width: 400px;
+    top: -15px;
+    left: -3px;
+}
+
+.container-body{
+    position: absolute;
+    top: 132px;
+    width: 1350px;
+    height: 1595px;
+    overflow: hidden;
+}
+
+.toldo{
+    position: absolute;
+    width: 1750px;
+    left: -150px;
+    top: 0px;
+}
+
+#txtBusca{
+    float:left;
+        padding-left:5px;
+        font-style:italic;
+        font-size:18px;
+        border:none;
+        height:50px;
+        width:720px;
+        left: 300px;
+  top: 115px;
+  text-align: left;
+        
+  }
+
+  .botao {
+    background-color:rgb(255, 255, 255);
+    border:solid 2px rgb(255, 255, 255);
+    border-left: solid 1px #00613C ;
+    border-radius: 0px 10px 10px 0px;
+    cursor:pointer;
+    position: absolute;
+    width: 55px;
+    height: 54px;
+    left: 705px;
+    top: -2px;
+    box-shadow: 0px 5.35484px 5.35484px rgba(0, 0, 0, 0.25);
+    background-image: url('../img/search.svg');
+    background-repeat: no-repeat;
+  }
+
+  #divBusca{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    border:solid 2px rgb(255, 255, 255);
+    border-radius:10px;
+    width:715px;
+    height:50px;
+    left: 300px;
+  top: 50px;
+  box-shadow: 0px 5.35484px 5.35484px rgba(0, 0, 0, 0.25);
+  }
+
+.sombra{
+    position: absolute;
+    width: 1750px;
+    left: -150px;
+    top: 15px;
+}
+
+.container-fotos{
+    position: absolute;
+    width: 1250px;
+    height: 160px;
+    left: 40px;
+    top: 250px;
+}
+
+.topico{
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+p{
+    display: inline;
+    color: #00613C;
+    font-size: 25px;
+    margin-left: 55px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.paes{
+    margin-left: 75px;
+}
+
+.queijo{
+    margin-left: 65px;
+}
+
+.tempero{
+ margin-left: 40px;
+}
+
+.peixe{
+    margin-left: 45px;
+}
+
+.linguiça{
+    margin-left: 45px;
+}
+
+.container-destaques{
+    position: absolute;
+    top: 460px;
+    height: 230px;
+    width: 1365px;
+    overflow: hidden;
+    
+}
+
+.destaque{
+    position: absolute;
+    top: 40px;
+}
+
+.flickity-viewport {
+    overflow: inherit !important;
+    left: -412px !important;
+    width: 1365px;
+}
+
+.container-parceiros{
+    position: absolute;
+    height: 900px;
+    top: 750px;
+    width: 1350px;
+}
+
+.catagolo{
+    position: absolute;
+    height: 900px;
+    top: 50px;
+    left: 54px;
+    width: 1278px;
+}
+
+.parceiro{
+    margin-right: -5px;
+}
+
+.container-footer{
+    position: absolute;
+    top: 1731px;
+    width: 1351px;
+    height:390px;
+    overflow: hidden;
+    background: #20222B;
+    
+  }
+  
+  .inicio{
+    top: 75px;
+    left: 400px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #20222B ;
+    border: none;
+    cursor: pointer;
+  
+    position: absolute;
+    text-decoration:none; 
+  
+  
+  }
+  
+  .estabelecimento{
+    top: 110px;
+    left: 400px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #20222B ;
+    border: none;
+    cursor: pointer;
+
+    position: absolute;
+    text-decoration:none; 
+  
+  }
+  
+  .ajuda{
+    top: 146px;
+    left: 400px;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    background: #20222B ;
+    border: none;
+
+    position: absolute;
+    text-decoration:none;
+  }
+  
+  .blog{
+    top: 180px;
+    left: 400px;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    background: #20222B ;
+    border: none;
+
+    position: absolute;
+    text-decoration:none;
+  }
+  
+  .termos{
+    top: 75px;
+    left: 917px;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    background: #20222B ;
+    border: none;
+
+    position: absolute;
+    text-decoration:none;
+  }
+  
+  .politica{
+    top: 110px;
+    left: 917px;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    background: #20222B ;
+    border: none;
+
+    position: absolute;
+    text-decoration:none;
+  }
+  
+  .face{
+    position: absolute;
+    height: 52px;
+    top: 280px;
+    left: 530px;
+  }
+  
+  .insta{
+    position: absolute;
+    height: 52px;
+    top: 280px;
+    left: 612px;
+  }
+  
+  .tube{
+    position: absolute;
+    height: 52px;
+    top: 280px;
+    left: 690px;
+    cursor: pointer;
+  }
+  
+  .linha1{
+    position: absolute;
+    top: 265px;
+    left: 93px;
+    width: 1044px;
+    color: #707070;
+  }
+  
+  .linha2{
+    position: absolute;
+    top: 347px;
+    left: 93px;
+    width: 1044px;
+    color: #707070;
+  }
+  
+  .text{
+    position: absolute;
+    color: #FFFFFF;
+    top: 370px;
+    left: 410px;
+    font-size: 20px;
+  }
+  
+  .logo-footer{
+    position: absolute;
+    height: 110px;
+    left: 65px;
+    top: 83px;
+  }

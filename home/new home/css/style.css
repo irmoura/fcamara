@@ -251,15 +251,11 @@ h1{
     left: 40px;
     color: #00613C;
 }
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 body { font-family: sans-serif; }
 
 .gallery {
-  height: 500px;
+  height: 480px;
 }
 
 .flickity-viewport{
@@ -271,20 +267,11 @@ body { font-family: sans-serif; }
   width: 28%;
   height: 200px;
   margin-right: 100px;
-  counter-increment: gallery-cell;
+  
 }
 
 .gallery-cell.is-selected {
   transform: scale(1.5);
-}
-
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 200px;
-  color: white;
 }
 
 .container3{

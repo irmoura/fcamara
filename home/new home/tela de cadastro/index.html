@@ -15,10 +15,10 @@
 	<section class="form hide">
 		<h2>Cadestre seu estabelecimento</h2>
 		<h4>Aumete as suas vendas!</h4>
-		<form>
+		<form name="formulario">
 	   
-	   <input type="text"
-			   name="name"
+	   <input  type="text"
+			   name="nome"
 			   placeholder="nome completo"
 	   >
  
@@ -28,11 +28,11 @@
 	   >
  
 	   <input type="text"
-			   name="cell-phone"
+			   name="celular"
 			   placeholder="celular (com DDD)"
 	   >
  
-	   <button class="continuar">Continuar cadastro</button>
+	   <button type="submit" onclick="return validar()" class="continuar">Continuar cadastro</button>
 	   
 	   </form>
 	  </section>

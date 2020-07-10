@@ -1,0 +1,456 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container1{
+    position: absolute;
+    width: 1351px;
+    height: 1035px;
+    overflow: hidden;
+}
+
+button{
+  position: absolute;
+  background-color: transparent;
+  border:0px;
+  color: #00613C;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+
+  cursor: pointer;
+}
+.inicio{
+  top: 40px;
+  left: 527px;
+  width: 80px;
+  height: 30px;
+}
+
+.quem{
+  top: 40px;
+  left: 623px;
+  width: 150px;
+  height: 30px;
+
+  position: absolute;
+  background-color: transparent;
+  border:0px;
+  color: #00613C;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  text-decoration:none; 
+
+  cursor: pointer;
+}
+
+.seja{
+  top: 40px;
+  left: 797px;
+  width: 190px;
+  height: 30px;
+}
+
+.contato{
+  top: 40px;
+  left: 1014px;
+  width: 80px;
+  height: 30px;
+}
+
+.entrar{
+  top: 28px;
+  left: 1199px;
+  width: 145px;
+  height: 55px;
+
+  font-size: 35px;
+
+  border: solid 1px #00000029;
+  
+}
+
+.logo{
+  position: absolute;
+  top: -306px;
+  width: 544px;
+  left: 400px;
+}
+img {
+    box-sizing: border-box;
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 3px;
+}
+
+#txtBusca{
+  float:left;
+      padding-left:5px;
+      font-style:italic;
+      font-size:18px;
+      border:none;
+      height:50px;
+      width:720px;
+      left: 300px;
+top: 115px;
+text-align: left;
+      
+}
+ 
+.botao {
+  background-color:rgb(255, 255, 255);
+  border:solid 2px rgb(255, 255, 255);
+  border-left: solid 1px #00613C ;
+  border-radius: 0px 10px 10px 0px;
+  -moz-outline:0;
+  cursor:pointer;
+  position: absolute;
+  width: 55px;
+  height: 54px;
+  left: 705px;
+  top: -2px;
+  box-shadow: 0px 5.35484px 5.35484px rgba(0, 0, 0, 0.25);
+  background-image: url('../img/search.svg');
+  background-repeat: no-repeat;
+}
+
+#divBusca{
+  position: absolute;
+  background-color:rgb(255, 255, 255);
+  border:solid 2px rgb(255, 255, 255);
+  border-radius:10px;
+  width:715px;
+  height:50px;
+  left: 300px;
+top: 410px;
+box-shadow: 0px 5.35484px 5.35484px rgba(0, 0, 0, 0.25);
+}
+
+.desenho1{
+    position: absolute;
+    top: -300px;
+    width: 1300px;
+
+    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 0.51;
+
+}
+
+.desenho2{
+    position: absolute;
+    top: -500px;
+    left: -450px;
+    height: 1470px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 0.51;
+}
+
+.desenho3{
+    position: absolute;
+    top: -600px;
+    left: -900px;
+    height: 1440px;
+    width: 1920px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.nav{
+    position: absolute;
+    top: -60px;
+left: 400px;
+width: 950px;
+height: 450px;
+background: transparent url('img/navbar.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.fundo{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 545px;
+left: -145.16796875px;
+width: 2103px;
+height: 524px;
+background: transparent url('img/Caminho 5976.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+backdrop-filter: blur(50px);
+-webkit-backdrop-filter: blur(50px);
+}
+
+.desenho4{
+    background-color: transparent;
+    position: absolute;
+    top: 405px;
+left: -160px;
+width: 1830px;
+height: 810px;
+opacity: 0.90;
+}
+
+.toldo{
+    position: absolute;
+    top: 350px;
+left: -170.59765625px;
+width: 2296px;
+height: 247px;
+background: transparent url('img/toldo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.toldoSombra{
+    position: absolute;
+    top: 370px;
+    left: -170.59765625px;
+    width: 2296px;
+    height: 247px;
+}
+
+.container-text-cta{
+  position: absolute;
+  width: 540px;
+  height: 200px;
+  overflow: hidden;
+  top: 670px;
+  left: 150px;
+}
+.cta{
+  position: absolute;
+  height: 380px;
+  top: 630px;
+  left: 330px;
+}
+
+.container2{
+    position: absolute;
+    top: 1032px;
+    width: 1351px;
+    height: 350px;
+    overflow: hidden;
+
+}
+
+*{
+    text-align: center;
+}
+
+h1{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 70px;
+    left: 40px;
+    color: #00613C;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  height: 480px;
+}
+
+.flickity-viewport{
+    position: initial !important;
+}
+
+.gallery-cell {
+    top: 100px;
+  width: 28%;
+  height: 200px;
+  margin-right: 100px;
+  
+}
+
+.gallery-cell.is-selected {
+  transform: scale(1.5);
+}
+
+.container3{
+  position: absolute;
+  top: 1385px;
+  width: 1351px;
+  height: 620px;
+  overflow: hidden;
+}
+
+.esquerda{
+  position: absolute;
+  top: -40px;
+  left: -720px;
+}
+
+.ilustracao{
+  position: absolute;
+  left: -380px;
+  top: 110px;
+  height: 500px;
+}
+
+.direita{
+  position: absolute;
+  height: 660px;
+  left: 620px;
+  top: -30px;
+}
+
+.container-text{
+  position: absolute;
+  top:200px;
+  left: 530px;
+  width: 660px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.container-text,h2{
+  text-align: left;
+  font-family: 'Roboto';
+    font-size: 45px;
+    color: #00613C;
+}
+
+.container4{
+  position: absolute;
+  top: 2010px;
+  width: 1351px;
+  height: 1070px;
+  overflow: hidden;
+}
+
+.funciona{
+  position: absolute;
+  top: 20px;
+  height: 1100px;
+}
+
+.peca{
+  position: absolute;
+  border: solid 1px black;
+  background: #20222B;
+  top: 990px;
+  height: 63px;
+  left: 585px;
+  width: 185px;
+  border-radius: 5px;
+  color: #FFFFFF;
+
+  font-size: 35px;
+}
+
+.container-footer{
+  position: absolute;
+  top: 3080px;
+  width: 1351px;
+  height:390px;
+  overflow: hidden;
+  background: #20222B;
+  
+}
+
+.ini{
+  top: 75px;
+  left: 400px;
+  font-size: 20px;
+  color: #FFFFFF;
+
+  position: absolute;
+  text-decoration:none; 
+
+
+}
+
+.estabelecimento{
+  top: 110px;
+  left: 400px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.ajuda{
+  top: 146px;
+  left: 400px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.blog{
+  top: 180px;
+  left: 400px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.termos{
+  top: 75px;
+  left: 917px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.politica{
+  top: 110px;
+  left: 917px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.face{
+  position: absolute;
+  height: 52px;
+  top: 280px;
+  left: -103px;
+}
+
+.insta{
+  position: absolute;
+  height: 52px;
+  top: 280px;
+  left: -12px;
+}
+
+.tube{
+  position: absolute;
+  height: 52px;
+  top: 280px;
+  left: 67px;
+}
+
+.linha1{
+  position: absolute;
+  top: 265px;
+  left: 93px;
+  width: 1044px;
+  color: #707070;
+}
+
+.linha2{
+  position: absolute;
+  top: 347px;
+  left: 93px;
+  width: 1044px;
+  color: #707070;
+}
+
+.text{
+  position: absolute;
+  color: #FFFFFF;
+  top: 370px;
+  left: 426px;
+  font-size: 20px;
+}
+
+.logo-footer{
+  position: absolute;
+  height: 110px;
+  left: -445px;
+  top: 83px;
+}

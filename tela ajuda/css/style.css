@@ -1,0 +1,138 @@
+.container-global{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+    width: 1362px;
+    height:636px;
+    overflow: hidden;
+
+    background: #EAF6F1;
+    
+    border: solid 2px black;
+}
+
+.fundo{
+    position: absolute;
+    width: 1400px;
+    bottom: -100px;
+    left: 0px;
+    
+}
+
+.logo{
+    position: absolute;
+    width: 500px;
+    top: -40px;
+    left: 450px;
+}
+
+h1{
+    position: absolute;
+    top: 95px;
+    left: 450px;
+
+    font-family: 'Open Sans';
+    font-size: 61px;
+
+    color: #00613C;
+}
+
+h2{
+    position: absolute;
+    top: 170px;
+    left: 495px;
+
+    font-family: 'Open Sans';
+    font-size: 38px;
+
+    color: #00613C;
+}
+
+.back-cliente{
+    position: absolute;
+    top: 250px;
+left: 345px;
+width: 378px;
+height: 342px;
+opacity: 1;
+}
+
+.back-estabe{
+    position: absolute;
+    top: 250px;
+left: 695px;
+width: 378px;
+height: 342px;
+opacity: 1;
+}
+
+.tele{
+    width: 370px;
+    top: 300px;
+    position: absolute;
+    opacity: 1;
+}
+
+.planta{
+    width: 270px;
+    top: 270px;
+    left: 1090px;
+    position: absolute;
+    opacity: 1;
+}
+
+.cliente{
+    position: absolute;
+    top: 280px;
+left: 345px;
+width: 378px;
+height: 260px;
+opacity: 1;
+}
+
+.quitanda{
+    position: absolute;
+    top: 240px;
+left: 770px;
+width: 220px;
+height: 260px;
+opacity: 1;
+}
+
+.botao-cliente{
+    position: absolute;
+    top: 518px;
+left: 485px;
+width: 100px;
+height: 35px;
+opacity: 1;
+border-radius: 10px;
+border: solid 0.5px black;
+
+background: #ffffff;
+
+font-family: 'Open Sans';
+font-size: 20px;
+
+cursor: pointer;
+}
+
+.botao-estabe{
+    position: absolute;
+    top: 518px;
+left: 785px;
+width: 200px;
+height: 35px;
+opacity: 1;
+border-radius: 10px;
+border: solid 0.5px black;
+
+background: #ffffff;
+
+font-family: 'Open Sans';
+font-size: 20px;
+
+cursor: pointer;
+}

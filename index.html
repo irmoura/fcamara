@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div id="top" class="container1">
+            <img class="desenho3" src="img/Caminho 5805.svg" alt="">
+            <img class="desenho2" src="img/Caminho 1462.svg" alt="">
+            <img class="desenho1" src="img/Caminho 1463.svg" alt="">
+            <img class="fundo" src="img/foto fundo cta.png" alt="">
+            <img class="desenho4" src="img/Caminho 5976.png" alt="">
+            <img class="toldoSombra" src="img/toldo sombra.svg" alt="">
+            <img class="toldo" src="img/toldo.svg" alt="">
+            <img class="logo" src="img/logo.png" alt="">
+            
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Busque o produto ou o estabelecimento desejado..."/>
+                <div class="verticalLine">
+                <input type="button" class="botao">
+            </div>
+              </div>
+
+              <img class="cta" src="img/ilustra cta.svg" alt="">
+              <div class="container-text-cta">
+              <h2 class="cta-text1">Compre sem sair de casa</h2>
+              <h2>os produtos da feira,</h2>
+              <h2>hortifrútis, peixarias</h2>
+              <h2>e <strong>muito mais!</strong></h2>
+            </div>
+
+            <section>
+                <button class="inicio" onClick="history.go(0)">início</button>
+
+                <form action="/login/login.html" class="inline">
+                <button class="entrar">Entrar</button>
+                </form>
+
+                <a class="quem" href="#quem-somos">quem somos</a>
+
+                <form action="/tela de cadastro/index.html" class="inline">
+                <button class="seja">seja um parceiro</button>
+                </form>
+
+                <form action="/tela ajuda/index.html" class="inline">
+                <button class="contato">contato</button>
+                </form>
+            </section>
+        </div>
+    </header>
+
+   <div class="container2">
+       <h1>categorias</h1>
+
+       <div class="gallery js-flickity">
+        <img class="gallery-cell" src="img/card hortifrúti.png" alt="">
+        <img class="gallery-cell" src="img/card granjeiro.png" alt="">
+        <img class="gallery-cell" src="img/card peixaria.png" alt="">
+        <img class="gallery-cell" src="img/card fast food.png" alt="">
+       </div>
+       
+   </div>
+
+   <div id="quem-somos" class="container3">
+       <h1>Quem somos</h1>
+
+       <img class="esquerda" src="img/side forma esquerda.svg" alt="">
+       <img class="ilustracao" src="img/ilustração cel cart.svg" alt="">
+       <img class="direita" src="img/side forma direita.svg" alt="">
+
+       <div class="container-text">
+          <h2>ENCURTAMOS DISTÂNCIAS!</h2>
+          <br>
+          <h2>O Quitanda do Bairro quer</h2>
+          <h2> transformar o seu jeito de</h2>
+          <h2>fazer feira.</h2>
+           
+       </div>
+   </div>
+
+   <div class="container4">
+       <h1>Como funciona</h1>
+
+       <img class="funciona" src="img/como funciona.png" alt="">
+       
+       <button class="peca">Peça agora</button>
+   </div>
+
+   <div class="container-footer">
+       <img class="logo-footer" src="img/logo-1.svg" alt="">
+
+       <section>
+           <a href="#top" class="ini" >início</a>
+           <button class="estabelecimento">cadastrar meu estabelecimento</button>
+
+           <form action="/tela ajuda/index.html" class="inline">
+           <button class="ajuda">contato e ajuda</button>
+           </form>
+
+           <button class="blog">blog do Quitanda do bairro</button>
+           <button class="termos">termos de uso</button>
+           <button class="politica">política de privacidade</button>
+       </section>
+
+       <p class="text">© 2020 Todos os direitos reservados ao Quitanda do Bairro.</p>
+        
+       <hr class="linha1">
+       <img src="" alt="">
+       <img class="face" src="img/Icon awesome-facebook-square.svg" alt="">
+       <img class="insta" src="img/Icon zocial-instagram.svg" alt="">
+       <img class="tube" src="img/youtube.svg" alt="">
+       <hr class="linha2">       
+   </div>
+
+  
+   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+   <script src="js/script.js"></script>	
+</body>
+</html>

@@ -2,6 +2,10 @@ Bem vindo(a) ao projeto do Squad 9, do programa de formação do primeiro semest
 
 Para iniciar o programa, é necessario iniciar o node, com o comando node server.js e acessar do navegador com o localhost:3000
 
+as bibliotecas do node utilizadas foram:
+yarn add express
+yarn add mongodb
+
 todos os dados são guardados no mongodb, para acessar o login e a senha são:
 
 squadnove2020@gmail.com

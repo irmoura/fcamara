@@ -1,4 +1,4 @@
-function validar () {
+function validar() {
 
     var body = {
         nome : formulario.nome.value,

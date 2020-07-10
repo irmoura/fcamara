@@ -26,6 +26,7 @@ function validar () {
     }
 
     alert("Cadastro realizado com sucesso");
+
     
 
 }
